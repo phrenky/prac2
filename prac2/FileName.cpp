@@ -46,7 +46,7 @@ int main() {
 
     int distance = levenshteinDistance(s1, s2);
 
-    cout << "Расстояние Левенштейна между \"" << s1 << "\" è \"" << s2 << "\" равно " << distance << endl;
+    cout << "Расстояние Левенштейна между \"" << s1 << "\" и \"" << s2 << "\" равно " << distance << endl;
 
     return 0;
 }
